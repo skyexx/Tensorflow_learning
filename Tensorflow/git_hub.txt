@@ -1,0 +1,11 @@
+1.在本地目录下关联远程repository ：
+git remote add origin http:xxxxxx
+2.取消本地目录下关联的远程库：
+git remote remove origin
+3.查看本地git更改
+git status
+4.让更改的文件和目录生效
+git add *
+git commit -m 'first_commit' #单引号里的是注释
+5.将本地生效的文件推送到远端
+git push -u origin master
