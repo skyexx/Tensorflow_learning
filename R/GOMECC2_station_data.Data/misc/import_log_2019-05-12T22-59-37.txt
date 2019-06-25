@@ -1,0 +1,2 @@
+ADD file: Z:/Users/skye_ye/Desktop/gitTUT/R/GOMECC2_station_data.csv
+	95 station(s) read from file.

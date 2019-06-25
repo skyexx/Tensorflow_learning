@@ -1,0 +1,37 @@
+
+[Application Window]
+Status = 000000ff00000000fd0000000100000001000001000000029cfc0200000003fb00000016004300750072007200530074006100740069006f006e01000000120000008d00000054000000bbfb00000014004300750072007200530061006d0070006c006501000000a300000169000000540000029cfb00000010004300750072007200490073006f007601000002100000009e00000054000000d1000004160000029c00000004000000040000000800000008fc00000000
+
+[Good Coverage]
+# Values = 4
+% Values = 20
+Gap Slope = 0.5
+Gap Upper Limit = 700
+Gap@minPrimVar = 175
+
+[Recent]
+ImageFile = C:/users/skye_ye/??/???/DefaultView_1.tif
+MapProperties_Page = 1
+View = DefaultView.xview
+WinProperties_Page = 2
+
+[Sample Matcher]
+AddNonMatchingSamples = 1
+ToleranceFactor = 0.01
+ToleranceLowerBound = 2
+ToleranceOffset = 0
+
+[Station Matcher]
+CheckCruiseLabel = 1
+CheckEdmoCode = 0
+CheckLatitude = 1
+CheckLocalCdiId = 0
+CheckLongitude = 1
+CheckStationLabel = 1
+CheckStationType = 1
+CheckTime = 1
+CruiseAliases = 
+Cruises = 
+LatitudeTolerance = 0.1
+LongitudeTolerance = 0.1
+TimeTolerance = 1

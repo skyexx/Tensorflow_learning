@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<View collection="GOMECC2_station_data" xview="0.18">
+<GeographicMap>
+<MapDomain lat_min="23.8497" lat_max="44.3703" lon_min="263.724" lon_max="296.95"/>
+</GeographicMap>
+<MapWindow>
+<Axis color="0" create_labels="T" draw_grid="F"/>
+<Symbol color="0" type="0" small_size="0.4" size="1.2"/>
+<Window>
+<Geometry y_offset_bb="1" x_offset_bb="1" y_projection="100" x_right="296.95" y_length_bb="6.6" x_length_bb="8.5" x_left="263.724" y_bottom="23.8497" y_top="44.3703" x_projection="100"/>
+</Window>
+</MapWindow>
+<Section width="0.0372697">
+<xNodes>278.396,282.657</xNodes>
+<yNodes>31.682,30.1155</yNodes>
+</Section>
+<PickedStations>
+<Station frame_color="4" frame_width="1" fill_color="4" symbol_type="0" line_style="0" line_color="4" sequence_id="84" text_alignment="1"/>
+<Station frame_color="2" frame_width="1" fill_color="2" symbol_type="1" line_style="0" line_color="2" sequence_id="58" text_alignment="5"/>
+<Station frame_color="5" frame_width="1" fill_color="5" symbol_type="2" line_style="0" line_color="5" sequence_id="35" text_alignment="7"/>
+</PickedStations>
+<DataWindow>
+<Axis axis_color="0" draw_grid="F" auto_label="T"/>
+<AxisVariables>
+<!--Section Distance [km]-->
+<xAxis var_id="200000" is_reversed="F" var_list="1"/>
+<!--CTDPRS-->
+<yAxis var_id="12" is_reversed="T" var_list="1"/>
+<!--PH_TOT-->
+<zAxis var_id="42" is_reversed="F" var_list="1"/>
+</AxisVariables>
+<Modes window_mode="2" window_type="0" plot_mode="7"/>
+<Contours draw="T">
+<Contour z_value="7.6"/>
+<Contour z_value="7.65"/>
+<Contour z_value="7.7"/>
+<Contour z_value="7.75"/>
+<Contour z_value="7.8"/>
+<Contour z_value="7.85"/>
+<Contour z_value="7.9"/>
+<Contour z_value="7.95"/>
+<Contour z_value="8"/>
+<Contour z_value="8.05"/>
+<Contour z_value="8.1"/>
+<Contour z_value="8.15"/>
+</Contours>
+<Gridding auto_scale_lengths="F" x_scale_length="7.9" draw_shaded="T" y_scale_length="4.9"/>
+<BadEstimateHiding hide="T" max_distance="4"/>
+<DataMark color="17" size="1.6"/>
+<OutlierFilter/>
+<Window>
+<Geometry y_offset_bb="9.3" x_offset_bb="3.5" x_right="378.013" y_length_bb="9.2" x_length_bb="23" x_left="59.0459" y_bottom="900" y_top="0"/>
+<ColorScale z_range_start="7.6" non_linearity_start="-0.75" non_linearity_end="0" z_range_end="8.15"/>
+</Window>
+</DataWindow>
+<DataWindow>
+<Axis axis_color="0" draw_grid="F" auto_label="T"/>
+<AxisVariables>
+<!--CTDSAL-->
+<xAxis var_id="14" is_reversed="F" var_list="1"/>
+<!--CTDTMP-->
+<yAxis var_id="13" is_reversed="F" var_list="1"/>
+</AxisVariables>
+<Modes window_mode="2" window_type="0" plot_mode="0"/>
+<Symbol color="0" type="0" small_size="1" size="1.5"/>
+<DataMark color="17" size="0.1"/>
+<Window>
+<Geometry y_offset_bb="1.5" x_offset_bb="12" x_right="37" y_length_bb="5.2" x_length_bb="6" x_left="35" y_bottom="7.5" y_top="30"/>
+<ColorScale auto_adjust_non_linearity="T"/>
+</Window>
+</DataWindow>
+<DataWindow>
+<Axis axis_color="0" draw_grid="F" auto_label="T"/>
+<AxisVariables>
+<!--CTDSAL-->
+<xAxis var_id="14" is_reversed="F" var_list="1"/>
+<!--TCARBN-->
+<yAxis var_id="36" is_reversed="F" var_list="1"/>
+</AxisVariables>
+<Modes window_mode="2" window_type="0" plot_mode="0"/>
+<Symbol color="0" type="0" small_size="1" size="1.5"/>
+<DataMark color="17" size="0.2"/>
+<Window>
+<Geometry y_offset_bb="1.5" x_offset_bb="21" x_right="37" y_length_bb="5.2" x_length_bb="6" x_left="35" y_bottom="1975" y_top="2225"/>
+</Window>
+</DataWindow>
+<BasicVariables>
+<!--Sample ID-->
+<Variable max_value="90000" min_value="0" var_id="0"/>
+<!--EXPOCODE-->
+<Variable max_value="0.001" min_value="-0.001" var_id="1"/>
+<!--SECT_ID-->
+<Variable max_value="610" min_value="520" var_id="2"/>
+<!--DEPTH-->
+<Variable max_value="900" min_value="0" var_id="11"/>
+<!--CTDPRS-->
+<Variable max_value="900" min_value="0" var_id="12"/>
+<!--CTDTMP-->
+<Variable max_value="30" min_value="7.5" var_id="13"/>
+<!--CTDSAL-->
+<Variable max_value="37" min_value="35" var_id="14"/>
+<!--TCARBN-->
+<Variable max_value="2225" min_value="1975" var_id="36"/>
+<!--PH_TOT-->
+<Variable max_value="8.15" min_value="7.6" var_id="42"/>
+</BasicVariables>
+<IsoSurfaceVariables>
+<!--Sample ID @ Sample ID=first-->
+<IsoVariable surface_var_id="0" var_id="0" surface_value="first"/>
+<!--EXPOCODE @ Sample ID=first-->
+<IsoVariable surface_var_id="0" var_id="1" surface_value="first"/>
+<!--SECT_ID @ Sample ID=first-->
+<IsoVariable surface_var_id="0" var_id="2" surface_value="first"/>
+<!--STNNBR @ Sample ID=first-->
+<IsoVariable surface_var_id="0" var_id="3" surface_value="first"/>
+</IsoSurfaceVariables>
+<CurrentSelection stationID="38" sampleID="0"/>
+</View>
